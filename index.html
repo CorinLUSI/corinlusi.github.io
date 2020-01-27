@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel=stylesheet href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+</head>
+<body>
+<header class="container header">
+    <h2 class="brand-name">demando</h2>
+</header>
+<main class="main">
+    <div class="card">
+        <section class="question-box">
+            <p class="question-text">
+                What would you cook for christmas for your family?
+            </p>
+        </section>
+        <section class="answer-box">
+            <ul class="answer-list">
+                <li class="answer">
+                    <input class="checkbox" type="checkbox" name="checkbox" id="answer-01" value="value">
+                    <label for="answer-01">Turkey</label>
+                    <div class="answer-vote">-- / 
+                        <strong>-- %</strong>
+                    </div>
+                </li>
+                <li class="answer">
+                    <input class="checkbox" type="checkbox" name="checkbox" id="answer-02" value="value">
+                    <label for="answer-02">Roasted duck</label>
+                    <div class="answer-vote">-- / 
+                        <strong>-- %</strong>
+                    </div>
+                </li>
+                <li class="answer">                    
+                    <input class="checkbox" type="checkbox" name="checkbox" id="answer-03" value="value">
+                    <label for="answer-03">Pulled pork</label>
+                    <div class="answer-vote">-- / 
+                        <strong>-- %</strong>
+                    </div>
+                </li>
+                <li class="answer">
+                    <input class="checkbox" type="checkbox" name="checkbox" id="answer-04" value="value">
+                    <label for="answer-04">Kebab</label>
+                    <div class="answer-vote">-- / 
+                        <strong>-- %</strong>
+                    </div>
+                </li>
+                <li class="answer">
+                    <input class="checkbox" type="checkbox" name="checkbox" id="answer-05" value="value">
+                    <label for="answer-05">Schnitzel</label>
+                    <div class="answer-vote">-- / 
+                        <strong>-- %</strong>
+                    </div>
+                </li>
+            </ul>
+            <div class="votes-box">
+                <span class="votes-count">211 votes</span>
+            </div>
+        </section>
+        <section class="category-box">
+            <i data-feather="tag"></i> 
+            <ul class="category-list">
+                <li class="category">cooking</li>
+                <li class="category">family</li>
+                <li class="category">holidays</li>
+            </ul>
+        </section>
+    </div>
+    <nav class="card-nav">
+        <button class="button save" title="Save Question">
+            <i data-feather="plus-circle"></i>
+        </button>
+        <button class="button skip" title="Next Question">
+            <i data-feather="play-circle"></i>
+        </button>
+    </nav>
+</main>
+<footer class="footer">
+    <nav class="footer-nav">
+        <button class="button browse" title="Browse Questions">
+            <i data-feather="layers"></i>
+        </button>
+        <button class="button filter" title="Filter Questions">
+            <i data-feather="sliders"></i>
+        </button>
+        <button class="button create" title="Create Question">
+            <i data-feather="edit"></i>
+        </button>
+        <button class="button create" title="Create Question">
+            <i data-feather="user"></i>
+        </button>
+    </nav>
+</footer>
+
+<script>
+    feather.replace()
+</script>
+</body>
+</html>
